@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 206, 206);
+}
+
+header{
+    background-color: rgb(255, 187, 0);
+}
+
+header #TecBlog{
+    margin-left: 44%;
+    display: flex;
+}
+header #Tec {
+    color: rgb(0, 0, 0);
+    
+}
+
+header #Blog {
+    color: aliceblue
+}
+nav {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    color: aliceblue;
+    display: inline-flex;
+    margin-left: 35%;
+    margin-top: -1%;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    background-color: black;
+    transition: 1s;
+}
+nav ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container {
+display: flex;
+margin-left: 15%;
+margin-bottom: 10px;
+margin-top: 10px
+}
+.Titulo1{
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    width: 660px;
+    background-color: #fff;
+
+}
+.Titulo1 p{
+    width: 650px
+}
+
+.Titulo1 h3{
+    color: rgb(245, 210, 94)
+}
+
+.Titulo2 {
+    margin-left: 15%;
+}
+.modal {
+
+    width: 250px;
+    margin-left: 10px;
+}
+
+#Postagens {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+    margin-bottom: 6px
+}
+
+#Postagens h4 {
+    background-color: gray;
+    padding: 4px
+}
+
+#Categorias {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    border-radius: 7px;
+    padding-bottom: 4px
+}
+
+#Categorias h4 {
+    background-color: gray;
+    padding: 4px
+}
+
+#Categorias ul {
+    color: rgb(245, 210, 94);
+    list-style: none;
+    margin-left: -30px
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 950px;
+    text-align: center;
+    background-color: rgb(173, 170, 170);
+    border-radius: 7px;
+    padding: 10px 0px
+   
+}

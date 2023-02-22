@@ -1,0 +1,38 @@
+{%extends 'base.html'%}
+{%block content%}
+
+
+    
+<body>
+
+    <div id="texto">
+    <h2>
+        Entre em contato
+    </h2>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <hr>
+    </hr>  
+
+    <h2>
+        Login
+    </h2>
+
+    <form method="POST">
+        Seu email: <br>
+        <input id="email" type="email" name="email"><br>
+        Assunto: <br>
+        <input id="assunto" type="text" name="assunto"><br>
+        Descrição: <br>
+        <textarea id="descricao" name="descricao"></textarea><br>
+        <button type="submit" value="Enviar">Enviar</button><br>
+    </form>
+    </div>
+
+</body>
+
+{%endblock%}
+
